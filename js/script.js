@@ -78,7 +78,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    asNavFor: ".slider-nav",
+    asNavFor: ".slider-nav2",
     focusOnSelect: true,
     prevArrow: $(".slider-wrap .slider-navigation .slick-prev"),
     nextArrow: $(".slider-wrap .slider-navigation .slick-next"),
@@ -86,7 +86,7 @@ $(document).ready(function () {
   $(".slider-nav2").slick({
     slidesToShow: 5,
     slidesToScroll: 1,
-    asNavFor: ".slider-for",
+    asNavFor: ".slider-for2",
     dots: false,
     arrows: false,
     focusOnSelect: true,
